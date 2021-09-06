@@ -1,3 +1,15 @@
+# signin page
+![signin](https://user-images.githubusercontent.com/45367739/132261738-4b5d6827-7c24-4a90-860b-b4ffb446a9dd.png)
+
+# registeration page
+![register](https://user-images.githubusercontent.com/45367739/132261755-fbe09d13-f6d4-41ab-bda1-1ffa6045a533.png)
+
+# home page
+![homepage](https://user-images.githubusercontent.com/45367739/132261751-7e99e591-491b-4f3e-a2ce-53307b976764.png)
+
+
+
+
 # lead-manager
 Author : Karam Abu-Mookh
 
