@@ -1,0 +1,80 @@
+
+POST http://localhost:8000/api/leads/
+content-type: application/json
+
+{
+    "name": "Karam Abu Mokh",
+    "email": "ABU.MOKH@gmail.com",
+    "message": "ABU MOKH KARAM"
+}
+
+###
+
+
+POST http://localhost:8000/api/leads/
+content-type: application/json
+
+{
+    "name": "Kkaram Abu Mokh",
+    "email": "ABU.MOKkH@gmail.com",
+    "message": "ABU MOKkH KARAM"
+}
+
+###
+DELETE http://localhost:8000/api/leads/68/
+content-type: application/json
+
+###
+
+
+GET http://localhost:8000/api/auth/allUsers
+content-type: application/json
+
+
+###
+
+
+POST http://localhost:8000/api/auth/register
+content-type: application/json
+
+{
+    "username": "karam",
+    "email": "aaa@gmail.com",
+    "password": "123456"
+}
+
+
+###
+
+
+POST http://localhost:8000/api/auth/login
+content-type: application/json
+
+{
+    "username": "amir",
+    "password": "123456"
+}
+
+
+###
+
+
+GET http://localhost:8000/api/auth/user
+content-type: application/json
+Authorization: Token da8d0c0e4bece21d70f5e7d8b1b9f7b58e73cdc721d50862dc8cd7281b0721f3
+
+
+###
+
+
+POST http://localhost:8000/api/auth/logout
+content-type: application/json
+Authorization: Token a9e5eb8224c2957a9a5d7c6e5cacd5dabf88550a4aa313e470a53a255cc1d4ca
+
+
+###
+
+
+GET http://localhost:8000/api/auth/users
+content-type: application/json
+
